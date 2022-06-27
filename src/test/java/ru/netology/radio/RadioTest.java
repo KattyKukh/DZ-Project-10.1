@@ -1,18 +1,12 @@
 package ru.netology.radio;
 
-import org.junit.jupiter.api.Assertions;
-
 import static org.junit.jupiter.api.Assertions.*;
 
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
 
 public class RadioTest {
-    // я не убрала параметры в файлы для того, чтобы было проще проверить тесты (сразу все видно). Но я умею убирать данные для тестов в файлы, если надо.
-
-
     @ParameterizedTest
     @CsvSource({
             "-1,10",
