@@ -77,17 +77,4 @@ public class Radio {
         }
 
     }
-
-    public int getCurrentStation() {
-        return this.currentStation;
-    }
-
-    public int getQuantityStation() {
-        return this.quantityStation;
-    }
-
-    public int getCurrentVolume() {
-        return this.currentVolume;
-    }
-
 }
